@@ -20,5 +20,4 @@ catkin_make
 
 ## How to run VINS-MONO on EuRoC datasets?
 1. Download EuRoC dataset on https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets. NOTE: Download datasets in **rosbag(.bag)** rather than ASL Dataset Format(*.zip).
-2. 开两个终端，一个运行roslaunch vins_estimator euroc.launch，另一个运行python run_euroc.py。并注意都要先 source devel/setup.bash一下
-3. Batch run. Modify 'bag_dir' to your path which contains all rosbag file. And run 'python run_euroc.py'. It will run all rosbag files in bag_dir.
+2. Batch run. Modify 'bag_dir' to your path which contains all rosbag file. And run 'python run_euroc.py'. It will run all rosbag files in bag_dir.
